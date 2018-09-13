@@ -9,6 +9,7 @@
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-emotion": "^9.2.8",
+    "react-icons": "^3.0.5",
     "react-scripts": "1.1.5",
     "react-slideshow-image": "^1.0.1",
     "styled-components": "^3.4.5",
@@ -16,15 +17,12 @@
     "typeface-overpass": "^0.0.54"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
-    "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
-    "clean": "rm -rf .cache && rm -rf public"
+    "tailwind:css": "tailwind build src/styles/tailwind.src.css -c  tailwind.js -o src/styles/tailwind.css",
+    "start": "npm run tailwind:css && react-scripts start",
+    "build": "npm run tailwind:css && react-scripts build"
   },
   "devDependencies": {
+    "autoprefixer": "^9.1.5",
     "babel-eslint": "^8.2.3",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
@@ -33,7 +31,9 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.8.2",
+    "postcss-cli": "^6.0.0",
     "prettier": "^1.13.3",
-    "prop-types": "^15.6.2"
+    "prop-types": "^15.6.2",
+    "tailwindcss": "^0.6.5"
   }
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import '../styles/global'
 import '../styles/font.css'
+import HeaderHome from './HeaderHome'
 
 class Layout extends React.Component {
   static propTypes = {
@@ -9,7 +10,12 @@ class Layout extends React.Component {
   }
 
   render() {
-    return <div>{this.props.children}</div>
+    return (
+      <div>
+        <HeaderHome />
+        <div>{this.props.children}</div>
+      </div>
+    )
   }
 }
 
