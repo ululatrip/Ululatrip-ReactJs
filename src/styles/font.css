@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Astronout';
+  src: url('../assets/fonts/Astronout.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-Bold';
+  src: url('../assets/fonts/Eina03-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-BoldItalic';
+  src: url('../assets/fonts/Eina03-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-light';
+  src: url('../assets/fonts/Eina03-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-lightItalic';
+  src: url('../assets/fonts/Eina03-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03';
+  src: url('../assets/fonts/Eina03-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-italic';
+  src: url('../assets/fonts/Eina03-RegularItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-SemiBold';
+  src: url('../assets/fonts/Eina03-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Eina03-SemiBoldItalic';
+  src: url('../assets/fonts/Eina03-SemiboldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../assets/fonts/SF-Pro-Display-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../assets/fonts/SF-Pro-Text-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'SF Pro Medium';
+  src: url('../assets/fonts/SF-Pro-Text-Medium.otf') format('opentype');
+}
