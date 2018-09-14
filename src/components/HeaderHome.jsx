@@ -4,6 +4,7 @@ import { FaPlayCircle } from 'react-icons/fa'
 import bgheader from '../assets/images/bgheader.png'
 import theme from '../styles/constants'
 import PrimaryButton from './Button'
+import NavigationAfter from './NavigationAfter'
 
 const HeaderContainer = styled('div')`
   flex-direction: column;
@@ -28,11 +29,13 @@ const Display1 = styled('div')`
   text-align: center;
   align-self: center;
   top: 35%;
-  max-width:72%;
-  line-height:50px;
+  max-width: 72%;
+  line-height: 50px;
 `
 
-const ImageHeader = styled('img')``
+const ImageHeader = styled('img')`
+position: absolute;
+`
 
 const PlayIcon = styled('div')`
   position: absolute;
@@ -59,11 +62,12 @@ const ButtonContainer = styled('div')`
 const HeaderHome = () => {
   return (
     <HeaderContainer>
+      <NavigationAfter />
       <ImageHeader src={bgheader} alt="bgheader" className="w-full h-auto" />
       <Display3>Experience The New Within Indonesia</Display3>
       <Display1>
-        Ululatrip is an experience-based travel marketplace that connects Tripper
-        and Trip Host to explore Indonesia through an unique, different trips
+        Ululatrip is an experience-based travel marketplace that connects Tripper and Trip Host to explore Indonesia
+        through an unique, different trips
       </Display1>
       <PlayIcon>
         <FaPlayCircle />

@@ -37,7 +37,8 @@ const Subheading = styled('div')`
   cursor: pointer;
 
   &:hover {
-    opacity: 0.5;
+    text-decoration: underline;
+    color: ${theme.colors.primary};
   }
 `
 const Body2 = styled('div')`
@@ -52,7 +53,8 @@ const Body2 = styled('div')`
   cursor: pointer;
 
   &:hover {
-    opacity: 0.5;
+    text-decoration: underline;
+    color: ${theme.colors.primary};
   }
 `
 

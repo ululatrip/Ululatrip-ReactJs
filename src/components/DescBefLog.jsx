@@ -5,6 +5,10 @@ import hostIcon from '../assets/icons/homebef/host.png'
 import tripperIcon from '../assets/icons/homebef/tripper.png'
 import SecondaryButton from './ButtonWhite'
 
+const Container = styled('div')`
+  margin-top: 850px;
+`
+
 const Display2 = styled('div')`
   font-family: Eina03;
   font-size: 45px;
@@ -64,7 +68,7 @@ const Grid = styled('div')`
 
 const DescBefore = () => {
   return (
-    <div>
+    <Container>
       <Display2 className="mt-20 mb-10">
         Who Are <DiffColor>You</DiffColor> ?
       </Display2>
@@ -88,7 +92,7 @@ const DescBefore = () => {
         <SecondaryButton text="Learn More" />
       </ButtonContainer>
       <Grid />
-    </div>
+    </Container>
   )
 }
 

@@ -18,7 +18,7 @@ const Slideshows = () => {
   return (
     <Container>
       <Slideshow
-        showArrows={false}
+        showArrows={true}
         autoplay
         useDotIndex
         slideInterval={2000}
