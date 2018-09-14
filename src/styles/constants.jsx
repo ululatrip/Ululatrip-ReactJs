@@ -28,8 +28,10 @@
     darkRed: '#b70345',
     raspberry: '#E20354',
     white: '#fff',
-    gray: '#E0E0E0',
+    gray: '#4A4A4A',
     dark: '#424242',
+    lightgray: '#9C9C9C',
+    medgray: '#9B9B9B',
 
     androidGray: '#f0eef0',
   },

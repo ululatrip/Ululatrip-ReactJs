@@ -49,11 +49,11 @@
 }
 
 @font-face {
-  font-family: 'SF Pro Text';
+  font-family: 'SF Pro Txt';
   src: url('../assets/fonts/SF-Pro-Text-Regular.otf') format('opentype');
 }
 
 @font-face {
-  font-family: 'SF Pro Medium';
+  font-family: 'SF Pro Med';
   src: url('../assets/fonts/SF-Pro-Text-Medium.otf') format('opentype');
 }
