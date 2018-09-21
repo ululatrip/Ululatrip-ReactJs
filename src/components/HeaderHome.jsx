@@ -5,6 +5,8 @@ import bgheader from '../assets/images/bgheader.png'
 import theme from '../styles/constants'
 import PrimaryButton from './Button'
 import NavigationAfter from './NavigationAfter'
+import Navigation from './Navigation'
+import NavigationHost from './NavigationHost'
 
 const HeaderContainer = styled('div')`
   flex-direction: column;
@@ -34,7 +36,7 @@ const Display1 = styled('div')`
 `
 
 const ImageHeader = styled('img')`
-position: absolute;
+  position: absolute;
 `
 
 const PlayIcon = styled('div')`
@@ -62,7 +64,9 @@ const ButtonContainer = styled('div')`
 const HeaderHome = () => {
   return (
     <HeaderContainer>
-      <NavigationAfter />
+      {/* <Navigation /> */}
+      {/* <NavigationAfter /> */}
+      <NavigationHost />
       <ImageHeader src={bgheader} alt="bgheader" className="w-full h-auto" />
       <Display3>Experience The New Within Indonesia</Display3>
       <Display1>

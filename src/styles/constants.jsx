@@ -30,7 +30,7 @@
     white: '#fff',
     gray: '#4A4A4A',
     dark: '#424242',
-    lightgray: '#9C9C9C',
+    lightgray: '#9b9b9b',
     medgray: '#9B9B9B',
 
     androidGray: '#f0eef0',

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import '../styles/global'
 import '../styles/font.css'
 import HeaderHome from './HeaderHome'
+import DescAfter from './DescAftLog'
 import DescBefore from './DescBefLog'
 import Popular from './Populartrip'
 import HostRank from './TripHostRank'
@@ -19,7 +20,8 @@ class Layout extends React.Component {
     return (
       <div>
         <HeaderHome />
-        <DescBefore />
+        <DescAfter />
+        {/* <DescBefore /> */}
         <Popular />
         <HostRank />
         <AboutUs />

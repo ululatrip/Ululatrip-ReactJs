@@ -44,6 +44,7 @@ const NavLink = styled('div')`
 
   &:hover {
     color: ${theme.colors.primary};
+    text-decoration: underline;
   }
 `
 

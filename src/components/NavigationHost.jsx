@@ -66,7 +66,7 @@ const CircleUser = styled('div')`
   }
 `
 
-class NavigationHost extends Component {
+class NavigationAfter extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -95,7 +95,7 @@ class NavigationHost extends Component {
           <NavLink>About Us</NavLink>
         </ContainerLeft>
         <ContainerRight>
-          <NavLink>Be a Trip Creator</NavLink>
+          <NavLink>Create Trip</NavLink>
           <NavLink onClick={this.onClickHandler}>Notification</NavLink>
           {this.state.isOpened ? <Notifications /> : null}
           <CircleUser onClick={this.onClick}>
@@ -108,4 +108,4 @@ class NavigationHost extends Component {
   }
 }
 
-export default NavigationHost
+export default NavigationAfter
