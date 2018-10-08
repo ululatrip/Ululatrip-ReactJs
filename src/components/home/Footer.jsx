@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'react-emotion'
 import { MdCopyright } from 'react-icons/md'
-import theme from '../../styles/constants'
 import logogrey from '../../assets/icons/logo/UlulGrey.png'
 
 const Container = styled('div')`
@@ -17,6 +16,7 @@ const LogoGrey = styled('img')`
   text-align: center;
   align-self: center;
   margin-bottom: 24px;
+  cursor: pointer;
 `
 
 const LinkWrap = styled('div')`
@@ -27,6 +27,11 @@ const LinkWrap = styled('div')`
 
 const Link = styled('div')`
   margin-right: 62px;
+  cursor: pointer;
+
+  &:hover{
+    text-decoration: underline;
+  }
 `
 
 const Footer = () => {

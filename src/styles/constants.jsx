@@ -6,6 +6,7 @@ const theme = {
     grey: '#d4d4d4',
     lightgrey: '#4a4a4a',
     socialgrey: '#9B9B9B',
+    transparent: '#FD7575',
   },
 }
 export default theme

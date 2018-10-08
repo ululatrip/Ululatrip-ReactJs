@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import '../styles/global'
 import '../styles/font.css'
-import Home from './home/HomeLayout'
+import Home from './layoutpage/HomeLayout'
 
 class Layout extends React.Component {
   static propTypes = {

@@ -22,6 +22,7 @@ const WrapperLogo = styled('div')`
   margin-top: 24px;
   text-align: center;
   align-self: center;
+  cursor: pointer;
 `
 
 const Description = styled('div')`
