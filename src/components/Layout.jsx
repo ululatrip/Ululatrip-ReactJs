@@ -2,14 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import '../styles/global'
 import '../styles/font.css'
-import HeaderHome from './HeaderHome'
-import DescAfter from './DescAftLog'
-import DescBefore from './DescBefLog'
-import Popular from './Populartrip'
-import HostRank from './TripHostRank'
-import AboutUs from './AboutUs'
-import BottomContent from './BottomContent'
-import Footer from './Footer'
+import Home from './layoutpage/HomeLayout'
 
 class Layout extends React.Component {
   static propTypes = {
@@ -19,14 +12,7 @@ class Layout extends React.Component {
   render() {
     return (
       <div>
-        <HeaderHome />
-        <DescAfter />
-        {/* <DescBefore /> */}
-        <Popular />
-        <HostRank />
-        <AboutUs />
-        <BottomContent />
-        <Footer />
+        <Home />
         <div>{this.props.children}</div>
       </div>
     )

@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'react-emotion'
 import Slideshow from 'react-slidez'
-import diving from '../assets/images/diving.jpg'
-import walking from '../assets/images/walking.png'
-import travel from '../assets/images/travel.png'
-import slider from '../styles/slider.css'
+import diving from '../../assets/images/diving.jpg'
+import walking from '../../assets/images/walking.png'
+import travel from '../../assets/images/travel.png'
+import slider from '../../styles/slider.css'
 
 const Container = styled('div')`
   margin-right: 320px;

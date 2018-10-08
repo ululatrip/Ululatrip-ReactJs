@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'react-emotion'
-import theme from '../styles/constants'
+import theme from '../../styles/constants'
 
-const PrimaryStyle = styled('button')`
+const Style = styled('button')`
   height: 44px;
   width: 290px;
   border-radius: 5px;
@@ -18,6 +18,9 @@ const PrimaryStyle = styled('button')`
     border: 1px solid ${theme.colors.primary};
   }
 `
-const FourthButton = ({ text, onClick }) => <PrimaryStyle onClick={onClick}>{text}</PrimaryStyle>
+const ButtonHover = ({ text, onClick }) => <Style onClick={onClick}>{text}</Style>
 
-export default FourthButton
+ButtonHover.defaultProps = {
+  text: 'SEE THIS TRIP',
+}
+export default ButtonHover
